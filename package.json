@@ -10,6 +10,9 @@
   "author": "Edward Jasper",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.14.0",
+    "node-env-file": "^0.1.8",
+    "path": "^0.12.7",
     "raven-js": "^3.7.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
