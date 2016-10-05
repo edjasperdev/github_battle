@@ -7,7 +7,6 @@ var Raven = require('raven-js');
 var sentryKey = '98a279c0eee147419f24ffffb67b7781'
 var sentryApp = '103577'
 var sentryUrl = 'https://' + sentryKey + '@app.getsentry.com/' + sentryApp
-
 var _APP_INFO = {
 	name: 'Github Battle',
 	branch: 'video4',
