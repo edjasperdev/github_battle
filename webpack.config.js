@@ -10,7 +10,7 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 try {
-	envFile(path.join(__dirname, 'config/' + process.env.NODE_ENV + '.env'))
+	envFile(path.join(__dirname, 'config_env/' + process.env.NODE_ENV + '.env'))
 } catch (e) {
 
 }
